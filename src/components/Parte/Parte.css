@@ -81,6 +81,8 @@
 
 .btn__parte {
     align-self: center;
+    text-align: center;
+    padding-left: 3vh;
 }
 
 .text__faca {
@@ -134,5 +136,12 @@
     .retangulo {
         padding-top: 2rem;
         padding-bottom: 2rem;
+        text-align: center;
+        padding-left: 1rem;
+    }
+
+    .parte {
+        border: none;
+        border-radius: 0;
     }
 }

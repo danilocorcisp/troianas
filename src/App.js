@@ -8,7 +8,7 @@ import Parte from "./components/Parte/Parte";
 import Espetaculo from "./components/Espetaculo/Espetaculo";
 import Galeria from "./components/Galeria/Galeria";
 import Opcoes from "./components/Opcoes/Opcoes";
-import Galeria2 from "./components/Galeria/Galeria2";
+// import Galeria2 from "./components/Galeria/Galeria2";
 
 function App() {
     return (
@@ -28,7 +28,7 @@ function App() {
                 </div>
                 <hr className="linha" id="sobre" />
                 <div className="espetaculo">
-                    <Galeria2 />
+                    {/* <Galeria2 /> */}
                     <Espetaculo />
                 </div>
                 <div className="galeria">

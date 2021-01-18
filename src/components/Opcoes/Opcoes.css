@@ -1,6 +1,7 @@
 .planos__center {
     margin: auto;
     width: 70%;
+    height: auto;
 }
 
 .title__descricao {
@@ -23,9 +24,21 @@
     font-weight: 200;
     font-size: 18px;
     /* background-color: #9c6539; */
-    background: linear-gradient(180deg, #9c6539 30%, #f1f2ed 10%);
+    /* background: linear-gradient(180deg, #9c6539 30%, #f1f2ed 10%); */
     text-align: right;
-    max-width: 15vh;
+    max-width: 10vh;
+}
+
+.numeros span {
+    font-family: "Roboto", sans-serif;
+    color: #eeeee6;
+    font-weight: 200;
+    font-size: 18px;
+    background-color: #9c6539;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 50px;
 }
 
 .negrito {

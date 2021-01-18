@@ -7,7 +7,7 @@ export default function Galeria() {
             <div className="row">
                 <div className="col foto2" id="planos">
                     <img
-                        src={"../img/fotos_div02.png"}
+                        src={"./img/fotos_div02.png"}
                         className="rounded float-start img-fluid"
                         alt="..."
                     ></img>

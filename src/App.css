@@ -4,7 +4,7 @@
     border-color: #d6acac !important;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1199px) {
     .navbar-nav {
         background-color: #9c6539 !important;
         font-family: "cadetlight";
@@ -30,7 +30,7 @@
         text-decoration: none !important;
     }
 
-    .testando {
-        display: block !important;
+    .tabela {
+        display: none !important;
     }
 }

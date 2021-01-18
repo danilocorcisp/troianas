@@ -43,12 +43,12 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     </html>
     ";
     
-    $headers = 	'De: Contato de As Troianas <hi@mydearstudio.com>' . "\r\n" .
+    $headers = 	'De: Contato de As Troianas <troianas@siteguy.dev>' . "\r\n" .
     "Reply-To: $email" . "\r\n" .
     "MIME-Version: 1.0\r\n" . 
     "Content-Type: text/html; charset=iso-8859-1\r\n";
 
-    $to = 'hola@estudiocalo.com.br';
+    $to = 'troianas@siteguy.dev';
     $subject = 'Quero fazer parte de As Troianas';
     
     if (mail($to, $subject, $emailBody, $headers)) {

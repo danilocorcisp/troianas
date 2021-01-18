@@ -54,6 +54,10 @@ body {
     z-index: 1;
 }
 
+.mobile__hero {
+    display: none;
+}
+
 .text-center {
     top: -100px;
 }
@@ -136,4 +140,16 @@ body {
 
 .bd-highlight {
     background-image: image("../img/pngs_header_elementos/logocalo.svg");
+}
+
+@media only screen and (max-width: 1080px) {
+    .desktop__hero {
+        display: none;
+    }
+
+    .mobile__hero {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

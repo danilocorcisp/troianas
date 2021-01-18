@@ -1,4 +1,8 @@
-.carrossel__container {
+.mobile__carousel {
+    display: none;
+}
+
+.carrossel__main {
     padding-top: 80px;
 }
 .container-fluid {
@@ -99,4 +103,176 @@
     height: 22px;
     text-align: top;
     line-height: 18px; */
+}
+
+/* INÍCIO DO MEDIA QUERY */
+
+@media only screen and (max-width: 1199px) {
+    .carrossel__container {
+        display: none;
+    }
+
+    .mobile__carousel {
+        display: grid;
+    }
+
+    .display-4 {
+        display: none;
+    }
+
+    .title__extras {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .title__extras span {
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .horarios {
+        text-align: center;
+        max-width: 100%;
+        font-size: 18px;
+        font-weight: 500;
+        color: #9c6539;
+    }
+
+    .car__title {
+        text-align: center;
+        align-content: center;
+        max-width: 100%;
+    }
+
+    .img_fluid {
+        max-width: auto;
+    }
+
+    .datas {
+        text-align: center;
+        align-content: center;
+        max-width: 100%;
+    }
+
+    .descritivo {
+        text-align: center;
+        align-content: center;
+        max-width: 100%;
+    }
+
+    .turma__mobile {
+        font-family: "cadetregular";
+        font-style: 20px;
+        color: white;
+        text-align: center;
+        align-content: center;
+    }
+
+    .turma__mobile span {
+        background-color: #9c6539;
+        padding: 5px;
+    }
+
+    .turma_descricao {
+        font-family: "Roboto", sans-serif;
+        font-weight: 200;
+        font-size: 17px;
+        color: #9c6539;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .carrossel__container {
+        display: none;
+    }
+
+    .p1 {
+        display: none;
+    }
+
+    .mobile__carousel {
+        display: grid;
+    }
+
+    .display-4 {
+        display: none;
+    }
+
+    .car__title {
+        max-width: 100%;
+    }
+
+    .img_fluid {
+        max-width: auto;
+    }
+
+    .descritivo {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .carrossel__container {
+        display: none;
+    }
+
+    .mobile__carousel {
+        display: grid;
+    }
+
+    .display-4 {
+        display: none;
+    }
+
+    .car__title {
+        max-width: 100%;
+    }
+
+    .img_fluid {
+        max-width: auto;
+    }
+
+    .descritivo {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .carrossel__container {
+        display: none;
+    }
+
+    .mobile__carousel {
+        display: grid;
+    }
+
+    .display-4 {
+        display: none;
+    }
+
+    .car__title {
+        max-width: 100%;
+    }
+
+    .img_fluid {
+        max-width: auto;
+    }
+
+    .descritivo {
+        max-width: 100%;
+    }
+
+    .aulas {
+        max-width: 5%;
+        font-size: 12px !important;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    .turma {
+        font-size: 12px;
+    }
 }

@@ -19,9 +19,6 @@ export default function Parte() {
 
     return (
         <div id="datas">
-            <div className="testando">
-                ESSE É UM TESTE PARA TROCAR RESPONSIVO
-            </div>
             <CardGroup className="align-items-center cards__parte">
                 <Card>
                     <Card.Body className="parte">

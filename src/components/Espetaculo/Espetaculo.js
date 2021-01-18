@@ -8,7 +8,7 @@ export default function Espetaculo() {
             <div className="row" id="espetaculo">
                 <div className="col foto1">
                     <img
-                        src={"../img/fotos_div02.png"}
+                        src={"./img/fotos_div02.png"}
                         className="rounded float-start img-fluid"
                         alt="..."
                     ></img>

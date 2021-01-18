@@ -10,7 +10,9 @@ export default function Opcoes() {
                 </div>
             </div>
             <div className="row planos__center">
-                <div className="col numeros align-self-top">1</div>
+                <div className="col numeros align-self-top">
+                    <span>1</span>
+                </div>
                 <div className="col align-self-center">
                     <h2 className="title__descricao">
                         Plano As Troianas 1 turma
@@ -22,7 +24,9 @@ export default function Opcoes() {
                 </div>
             </div>
             <div className="row planos__center">
-                <div className="col numeros align-self-top">2</div>
+                <div className="col numeros align-self-top">
+                    <span>2</span>
+                </div>
                 <div className="col align-self-center">
                     <h2 className="title__descricao">
                         Plano As Troianas 2 turmas
@@ -34,7 +38,9 @@ export default function Opcoes() {
                 </div>
             </div>
             <div className="row planos__center">
-                <div className="col numeros align-self-top">3</div>
+                <div className="col numeros align-self-top">
+                    <span>3</span>
+                </div>
                 <div className="col align-self-center">
                     <h2 className="title__descricao">
                         Plano As Troianas 1 turma + Aulas regulares
@@ -46,7 +52,9 @@ export default function Opcoes() {
                 </div>
             </div>
             <div className="row planos__center">
-                <div className="col numeros align-self-top">4</div>
+                <div className="col numeros align-self-top">
+                    <span>4</span>
+                </div>
                 <div className="col align-self-center">
                     <h2 className="title__descricao">
                         Plano As Troianas 2 turmas + Aulas regulares
@@ -58,7 +66,9 @@ export default function Opcoes() {
                 </div>
             </div>
             <div className="row planos__center">
-                <div className="col numeros align-self-top">5</div>
+                <div className="col numeros align-self-top">
+                    <span>5</span>
+                </div>
                 <div className="col align-self-center">
                     <h2 className="title__descricao">
                         Plano As Troianas 1 turma + Tablado
@@ -70,7 +80,9 @@ export default function Opcoes() {
                 </div>
             </div>
             <div className="row planos__center">
-                <div className="col numeros align-self-top">6</div>
+                <div className="col numeros align-self-top">
+                    <span>6</span>
+                </div>
                 <div className="col align-self-center">
                     <h2 className="title__descricao">
                         Plano As Troianas 2 turmas + Tablado
