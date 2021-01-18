@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     "MIME-Version: 1.0\r\n" . 
     "Content-Type: text/html; charset=iso-8859-1\r\n";
 
-    $to = 'camila@mydearstudio.com';
+    $to = 'hola@estudiocalo.com.br';
     $subject = 'Quero fazer parte de As Troianas';
     
     if (mail($to, $subject, $emailBody, $headers)) {

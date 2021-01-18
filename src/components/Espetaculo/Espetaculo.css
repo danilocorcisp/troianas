@@ -60,3 +60,10 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
+
+@media only screen and (max-width: 1080px) {
+    .col__datas {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

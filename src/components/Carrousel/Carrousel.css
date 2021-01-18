@@ -4,7 +4,7 @@
 .container-fluid {
     padding-bottom: 30px;
 }
-.carousel-control-prev-icon,
+
 .carousel-control-next-icon {
     height: 315px;
     width: 57px;
@@ -12,16 +12,19 @@
     background-image: none;
 }
 
+.carousel-control-prev-icon {
+    height: 315px;
+    width: 57px;
+    background-size: 100%, 100%;
+    background-image: none;
+}
+
 .carousel-control-next-icon:after {
-    content: ">";
-    font-size: 105px;
-    color: #ae6534;
+    content: url("./img/seta_direita.png");
 }
 
 .carousel-control-prev-icon:after {
-    content: "<";
-    font-size: 105px;
-    color: #ae6534;
+    content: url("./img/seta_esquerda.png");
 }
 
 .carousel-control-next {

@@ -19,10 +19,10 @@ class Email extends React.Component {
             data: this.state,
         }).then((response) => {
             if (response.data.status === "success") {
-                alert("Message Sent.");
+                alert("Mensagem enviada com sucesso.");
                 this.resetForm();
             } else if (response.data.status === "fail") {
-                alert("Message failed to send.");
+                alert("Erro ao enviar a mensagem. Por favor, tente novamente");
             }
         });
     }

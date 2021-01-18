@@ -3,3 +3,34 @@
     opacity: 1 !important;
     border-color: #d6acac !important;
 }
+
+@media only screen and (max-width: 1080px) {
+    .navbar-nav {
+        background-color: #9c6539 !important;
+        font-family: "cadetlight";
+        font-size: 14px;
+        color: white;
+        justify-content: center;
+        padding-right: 2rem !important;
+    }
+
+    .descritivo {
+        font-family: "Roboto", sans-serif;
+        font-weight: 200;
+        font-size: 14px !important;
+        color: #9c6539;
+        text-align: center;
+    }
+
+    .car__title {
+        font-family: "cadetregular";
+        font-style: 20px !important;
+        color: #9c6539;
+        text-align: center;
+        text-decoration: none !important;
+    }
+
+    .testando {
+        display: block !important;
+    }
+}
