@@ -1,0 +1,99 @@
+.carrossel__container {
+    padding-top: 80px;
+}
+.container-fluid {
+    padding-bottom: 30px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 315px;
+    width: 57px;
+    background-size: 100%, 100%;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: ">";
+    font-size: 105px;
+    color: #ae6534;
+}
+
+.carousel-control-prev-icon:after {
+    content: "<";
+    font-size: 105px;
+    color: #ae6534;
+}
+
+.carousel-control-next {
+    width: 10%;
+    color: #f1f2ed !important;
+}
+
+.carousel-control-prev {
+    width: 10%;
+    color: #f1f2ed !important;
+}
+
+.sr-only {
+    display: none;
+}
+
+.car__title {
+    font-family: "cadetregular";
+    font-style: 25px;
+    color: #9c6539;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.active h2 {
+    text-decoration: none !important;
+}
+
+.descritivo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+    color: #9c6539;
+    text-align: center;
+}
+
+.calendar {
+    margin-left: auto;
+    margin-right: auto;
+}
+.align-baseline {
+    text-align: left !important;
+    padding-left: 10px;
+}
+
+.aulas {
+    color: #efefe7;
+}
+.turma {
+    font-weight: bold;
+    text-align: left;
+}
+
+.carousel-indicators li {
+    background-color: #9c6539;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+
+.btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #9c6539;
+    color: #efefe7;
+    cursor: none;
+    border: none;
+    border-radius: 0%;
+    text-align: right;
+    /* width: 80px;
+    height: 22px;
+    text-align: top;
+    line-height: 18px; */
+}

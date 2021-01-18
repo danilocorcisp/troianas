@@ -1,0 +1,35 @@
+.footer__troia {
+    background-color: #9c6539 !important;
+    font-family: "cadetlight";
+    font-size: 16px;
+    color: white;
+}
+
+.troia {
+    text-align: center !important;
+}
+
+.text-muted {
+    color: white !important;
+}
+
+.svg {
+    padding: 80px;
+}
+
+.MuiSvgIcon-root {
+    /* fill: currentColor;
+    width: 1.5em !important;
+    height: 1.5em !important;
+    display: inline-block;
+    font-size: 2rem !important;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none; */
+    transform: scale(2) !important;
+}
+
+.icon-ok {
+    padding-left: 1em;
+    padding-right: 1em;
+}

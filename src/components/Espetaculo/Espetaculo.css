@@ -1,0 +1,62 @@
+.chamada {
+    padding-right: 20%;
+    padding-left: 18%;
+}
+
+.espetaculo {
+    background-color: #f1f2ed !important;
+}
+
+/* .foto1 {
+    justify-content: flex-end;
+} */
+
+h1 {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.txt {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #9c6539;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 0;
+    width: 30%;
+    padding-top: 1rem;
+}
+
+.data {
+    font-family: "Roboto", sans-serif !important;
+    text-align: center !important;
+    font-size: 19px !important;
+    font-weight: bold;
+    letter-spacing: 0px !important;
+    color: #9c6539 !important;
+    opacity: 1 !important;
+}
+
+.datas {
+    font-family: "Roboto", sans-serif !important;
+    text-align: center !important;
+    color: white;
+    background-color: #9c6539;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0% !important;
+    border: 0mm;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.col__datas {
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}

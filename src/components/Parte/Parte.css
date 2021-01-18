@@ -1,0 +1,134 @@
+.flex-row {
+    padding-top: 10px;
+
+    justify-content: center;
+}
+
+.card {
+    background-color: #9c6539 !important;
+}
+
+.cards__parte {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p-2 {
+    background-color: #9c6539;
+}
+
+.parte {
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #eeeee6;
+    opacity: 1;
+    background-color: #9c6539;
+    border-right: 1px solid white;
+    margin-left: 10px;
+    /* padding-right: 20px; */
+}
+
+.parte2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #eeeee6;
+    opacity: 1;
+    background-color: #9c6539;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-right: 1px solid white;
+}
+
+.call_action {
+    background-color: #9c6539;
+    color: #eeeee6;
+    font-family: "cadetregular";
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.retangulo {
+    background-color: #9c6539 !important;
+    border: 1px solid #ffffff;
+    /* width: 212px;
+    height: 58px; */
+    text-align: center;
+    margin-top: 2px;
+    /* margin-right: 10px; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    padding-left: 30px;
+    height: auto;
+}
+
+.retangulo:hover {
+    background-color: #9c6539;
+    border: 1px solid #ffffff !important;
+}
+
+.retangulo:visited {
+    background-color: #9c6539 !important;
+    border: 1px solid #ffffff !important;
+}
+
+.btn__parte {
+    align-self: center;
+}
+
+.text__faca {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.faltas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.p1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: #6f6f6f;
+    text-align: center;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f1f2ed !important;
+    padding-bottom: 30px;
+    justify-content: center;
+    border: 0;
+    max-width: 90%;
+}
+
+.btn-primary {
+    background-color: #ba8052;
+    border-color: white !important;
+}
+
+.btn-primary:focus {
+    background-color: #ba8052 !important;
+    border-color: white !important;
+    box-shadow: none !important;
+}
+
+.btn-check:focus {
+    background-color: #9c6539 !important;
+    border-color: white !important;
+}
+
+@media only screen and (max-width: 1080px) {
+    .retangulo {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
