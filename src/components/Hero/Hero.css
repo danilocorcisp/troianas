@@ -142,7 +142,7 @@ body {
     background-image: image("../img/pngs_header_elementos/logocalo.svg");
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1199px) {
     .desktop__hero {
         display: none;
     }
@@ -151,5 +151,56 @@ body {
         display: flex;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .desktop__hero {
+        display: none;
+    }
+
+    .mobile__hero {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 12vh;
+    }
+
+    .iphone {
+        height: 402px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .desktop__hero {
+        display: none;
+    }
+
+    .mobile__hero {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15vh;
+    }
+
+    .iphone {
+        height: 402px !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .desktop__hero {
+        display: none;
+    }
+
+    .mobile__hero {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 12vh;
+    }
+
+    .iphone {
+        height: 402px !important;
     }
 }

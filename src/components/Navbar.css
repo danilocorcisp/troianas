@@ -134,18 +134,45 @@ li > a:hover:after {
     color: #f1f2ed !important;
 }
 
-/* .nav-item {
-    position: relative;
+@media only screen and (max-width: 1199px) {
+    .foto3 {
+        display: none;
+    }
+    .navbar-nav {
+        text-align: right;
+        align-items: flex-end;
+    }
 }
-.active:after,
-.nav-item:hover:after {
-    content: " ";
-    position: absolute;
-    border: solid 10px transparent;
-    border-top: solid 0px transparent;
-    border-width: 10px;
-    top: 5em;
-    left: 50%;
-    margin-left: -10px;
-    border-color: #f0f transparent transparent transparent;
-} */
+
+@media only screen and (max-width: 992px) {
+    .foto3 {
+        display: none;
+    }
+
+    .navbar-nav {
+        text-align: right;
+        align-items: flex-end;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .foto3 {
+        display: none;
+    }
+
+    .navbar-nav {
+        text-align: right;
+        align-items: flex-end;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .foto3 {
+        display: none;
+    }
+
+    .navbar-nav {
+        text-align: right;
+        align-items: flex-end;
+    }
+}

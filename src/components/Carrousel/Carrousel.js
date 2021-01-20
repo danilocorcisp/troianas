@@ -272,7 +272,7 @@ export class BootstrapCarousel extends Component {
                                     width: "150px",
                                 }}
                                 src={"./img/arm.png"}
-                                className="rounded img-thumbnail mx-auto d-block"
+                                className="img-thumbnail mx-auto d-block"
                                 alt="..."
                             ></img>
                             <p></p>
@@ -383,7 +383,7 @@ export class BootstrapCarousel extends Component {
                                     width: "150px",
                                 }}
                                 src={"./img/shoes.png"}
-                                className="rounded img-thumbnail mx-auto d-block"
+                                className="img-thumbnail mx-auto d-block"
                                 alt="..."
                             ></img>
                             <p></p>
