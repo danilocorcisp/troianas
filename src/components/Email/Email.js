@@ -15,7 +15,7 @@ class Email extends React.Component {
         e.preventDefault();
         axios({
             method: "POST",
-            url: "https://troianas.siteguy.dev/send",
+            url: "https://yourserver/send",
             data: this.state,
         }).then((response) => {
             if (response.data.status === "success") {
