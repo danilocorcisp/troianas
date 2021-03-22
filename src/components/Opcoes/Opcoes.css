@@ -44,3 +44,30 @@
 .negrito {
     font-weight: bold;
 }
+
+@media only screen and (max-width: 992px) {
+    .planos__center {
+        margin: auto;
+        width: 50%;
+        height: auto;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .planos__center {
+        margin: auto;
+        width: 50%;
+        height: auto;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .planos__center {
+        margin: auto;
+        width: auto;
+        height: auto;
+        padding-right: 10px;
+    }
+}

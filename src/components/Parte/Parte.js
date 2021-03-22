@@ -29,7 +29,7 @@ export default function Parte() {
                 <Card className="parte2">
                     <Card.Body>
                         <Card.Title>Parte 2</Card.Title>
-                        <Card.Text>De 20/08 a 26/11/2021</Card.Text>
+                        <Card.Text>De 02/08 a 26/11/2021</Card.Text>
                     </Card.Body>
                 </Card>
                 <Card className=" call_action h-100">

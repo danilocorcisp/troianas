@@ -75,7 +75,7 @@ export default function Opcoes() {
                     </h2>
                     <p className="descricao">
                         Processo do espetáculo (1 turma) + processo especial de
-                        tablado - R$ 5.887 em até 10x sem juros de R$ 876
+                        tablado - R$ 5.887 em até 10x sem juros de R$ 588,70
                     </p>
                 </div>
             </div>
