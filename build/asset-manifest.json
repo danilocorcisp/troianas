@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/astroianas/static/css/main.ed24855a.chunk.css",
+    "main.js": "/astroianas/static/js/main.e6cbddfa.chunk.js",
+    "main.js.map": "/astroianas/static/js/main.e6cbddfa.chunk.js.map",
+    "runtime-main.js": "/astroianas/static/js/runtime-main.fcf26134.js",
+    "runtime-main.js.map": "/astroianas/static/js/runtime-main.fcf26134.js.map",
+    "static/js/2.7699693d.chunk.js": "/astroianas/static/js/2.7699693d.chunk.js",
+    "static/js/2.7699693d.chunk.js.map": "/astroianas/static/js/2.7699693d.chunk.js.map",
+    "static/js/3.7c5514f4.chunk.js": "/astroianas/static/js/3.7c5514f4.chunk.js",
+    "static/js/3.7c5514f4.chunk.js.map": "/astroianas/static/js/3.7c5514f4.chunk.js.map",
+    "index.html": "/astroianas/index.html",
+    "static/css/main.ed24855a.chunk.css.map": "/astroianas/static/css/main.ed24855a.chunk.css.map",
+    "static/js/2.7699693d.chunk.js.LICENSE.txt": "/astroianas/static/js/2.7699693d.chunk.js.LICENSE.txt",
+    "static/media/Hero.css": "/astroianas/static/media/cadet-thin-webfont.e0cb53ad.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fcf26134.js",
+    "static/js/2.7699693d.chunk.js",
+    "static/css/main.ed24855a.chunk.css",
+    "static/js/main.e6cbddfa.chunk.js"
+  ]
+}
